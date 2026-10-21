@@ -76,7 +76,7 @@ int main(void) {
   int round,computer_turn =0;
   printf("Welcome to Chicago game.\nLet's get started!\n\n");
   int dice1,dice2,sum_dice;
-  do { /
+  do { 
     dice1 = roll_a_dice();
     dice2 = roll_a_dice();
     printf("I have rolled the dice and got %d and %d!\n",dice1,dice2);
